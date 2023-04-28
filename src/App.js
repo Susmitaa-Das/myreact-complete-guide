@@ -3,7 +3,7 @@ import ExpenseItem from './components/ExpenseItem'
 import './App.css'
 
 function App() {
-  const expences = [
+  const expenses = [
     {
       id: 'e1',
       title: 'Toilet Paper',
@@ -28,27 +28,27 @@ function App() {
     <div>
       
         <ExpenseItem
-          title={expences[0].title}
-          amount={expences[0].amount}
-          date={expences[0].date}
+          title={expenses[0].title}
+          amount={expenses[0].amount}
+          date={expenses[0].date}
         />
 
         <ExpenseItem
-          title={expences[1].title}
-          amount={expences[1].amount}
-          date={expences[1].date}
+          title={expenses[1].title}
+          amount={expenses[1].amount}
+          date={expenses[1].date}
         />
 
         <ExpenseItem
-          title={expences[2].title}
-          amount={expences[2].amount}
-          date={expences[2].date}
+          title={expenses[2].title}
+          amount={expenses[2].amount}
+          date={expenses[2].date}
         ></ExpenseItem>
 
         <ExpenseItem
-          title={expences[3].title}
-          amount={expences[3].amount}
-          date={expences[3].date}
+          title={expenses[3].title}
+          amount={expenses[3].amount}
+          date={expenses[3].date}
         ></ExpenseItem>
 
     </div>
